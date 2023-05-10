@@ -1,0 +1,62 @@
+body {
+  margin: 2rem;
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+}
+
+button {
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  padding: 0.2rem 0.4rem;
+}
+
+button:active {
+  transform: translateY(4px);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  max-width: 10rem;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+li {
+  margin: 0 2rem 1rem 2rem;
+}
+
+article {
+  width: 16rem;
+}
+
+.counter-display-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+p {
+  text-align: center;
+  width: 3rem;
+  font-size: 25px;
+  margin: 0.3rem;
+  background-color: lightgray;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+div > button {
+  font-size: 35px;
+  border: none;
+  background: transparent;
+}

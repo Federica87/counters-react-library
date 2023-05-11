@@ -2,48 +2,43 @@ body {
   margin: 2rem;
   text-align: center;
   max-width: 1440px;
-  margin: auto;
-}
+  margin: auto; }
 
 button {
   border-radius: 5px;
   margin: 0 0.5rem;
   padding: 0.2rem 0.4rem;
-}
-
-button:active {
-  transform: translateY(4px);
-}
-
-button:hover {
-  cursor: pointer;
-}
+  background-color: #eceaea; }
+  button:active {
+    transform: translateY(4px); }
+  button:hover {
+    cursor: pointer;
+    background-color: #c8c2c2; }
 
 input {
   padding: 0.2rem 0.4rem;
   border-radius: 5px;
-  max-width: 10rem;
-}
+  max-width: 10rem; }
 
 ul {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 li {
-  margin: 0 2rem 1rem 2rem;
-}
+  margin: 0 2rem 1rem 2rem; }
 
 article {
-  width: 16rem;
-}
+  width: 16rem; }
 
 .counter-display-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 1rem;
-}
+  margin-bottom: 1rem; }
+  .counter-display-container button {
+    font-size: 35px;
+    border: none;
+    background: transparent; }
 
 p {
   text-align: center;
@@ -52,11 +47,4 @@ p {
   margin: 0.3rem;
   background-color: lightgray;
   padding: 1rem;
-  border-radius: 5px;
-}
-
-div > button {
-  font-size: 35px;
-  border: none;
-  background: transparent;
-}
+  border-radius: 5px; }
